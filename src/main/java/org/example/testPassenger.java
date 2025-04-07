@@ -24,6 +24,19 @@ public class testPassenger {
 
         assertEquals(expected:Attendee.Title());
     }
+    @Test
+    void Fname(){
+
+
+        assertEquals(expected:Attendee.Fname());
+    }
+    @Test
+    void Lname(){
+
+
+        assertEquals(expected:Attendee.Lname());
+    }
+
 
     @AfterEach
     void tearThis(){
