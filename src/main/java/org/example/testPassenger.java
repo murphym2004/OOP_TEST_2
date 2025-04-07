@@ -24,6 +24,12 @@ public class testPassenger {
 
         assertEquals(expected:Attendee.Title());
     }
+    @Test
+    void Age(){
+
+
+        assertEquals(expected:Attendee.Age());
+    }
 
     @AfterEach
     void tearThis(){
