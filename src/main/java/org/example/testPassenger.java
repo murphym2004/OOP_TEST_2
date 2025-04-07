@@ -25,7 +25,25 @@ public class testPassenger {
         assertEquals(expected:Attendee.Title());
     }
     @Test
-    void idcode(){
+    void Lname(){
+
+
+        assertEquals(expected:Attendee.Lname());
+    }
+    @Test
+    void Fname(){
+
+
+        assertEquals(expected:Attendee.Fname());
+    }
+    @Test
+    void Age(){
+
+
+        assertEquals(expected:Attendee.Age());
+    }
+    @Test
+    void IDcode(){
 
 
         assertEquals(expected:Attendee.IDcode());
